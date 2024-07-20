@@ -1,0 +1,29 @@
+.donation-container {
+  background: url("/assets/donation.webp") no-repeat center center;
+  background-size: cover;
+  padding: 100px 0;
+  color: white;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.style-box {
+  background-color: rgb(171, 171, 171);
+  padding: 10px;
+}
+
+.whole-box {
+  gap: 2em;
+  margin-top: 1em;
+  margin: 1em;
+}
+
+@media (max-width: 768px) {
+  .whole-box {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  .style-box {
+    width: 100%;
+  }
+}
