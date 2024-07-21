@@ -1,0 +1,17 @@
+{
+  "name": "final-lab",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "sass-build": "sass --no-source-map scss:css",
+    "sass-watch": "sass --watch --no-source-map scss:css"
+  },
+  "keywords": [],
+  "author": "Sumair Singh Sandhu",
+  "license": "MIT",
+  "dependencies": {
+    "bootstrap": "^5.3.3",
+    "sass": "^1.77.6"
+  }
+}
